@@ -1,0 +1,30 @@
+name = "JBang"
+type = "cli"
+
+[platform.linux]
+archive-prefix = "jbang"
+exe-path = "bin/jbang"
+download-file = "jbang.tar"
+checksum-file = "jbang.tar.sha256"
+
+[platform.macos]
+archive-prefix = "jbang"
+exe-path = "bin/jbang"
+download-file = "jbang.tar"
+checksum-file = "jbang.tar.sha256"
+
+[platform.windows]
+archive-prefix = "jbang"
+exe-path = "bin/jbang.cmd"
+download-file = "jbang.zip"
+checksum-file = "jbang.zip.sha256"
+
+[install]
+download-url = "https://github.com/jbangdev/jbang/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/jbangdev/jbang/releases/download/v{version}/{checksum_file}"
+
+[install.exes.jbang]
+primary = true
+
+[resolve]
+git-url = "https://github.com/jbangdev/jbang"

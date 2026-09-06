@@ -1,0 +1,4 @@
+jbang = "0.141.0"
+
+[plugins.tools]
+jbang = "file://./jbang.toml"
