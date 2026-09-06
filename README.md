@@ -11,7 +11,7 @@ Register the plugin, install JBang, and check its version:
 プラグインを登録し、JBang をインストールしてバージョンを確認します。
 
 ```sh
-proto plugin add jbang "https://raw.githubusercontent.com/yu64/proto-jbang-plugin/refs/heads/main/jbang.toml"
+proto plugin add jbang "https://raw.githubusercontent.com/yu64/proto-jbang-plugin/main/jbang.toml"
 proto install jbang
 jbang version
 ```
